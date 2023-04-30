@@ -9,3 +9,5 @@ A number of articles were researched in order to undertake this exercise and und
 <ul><li>https://www.gliffy.com/blog/how-to-draw-an-entity-relationship-diagram</li><li>
 https://www.smartdraw.com/entity-relationship-diagram/</li><li>
 https://vertabelo.com/blog/vertabelo-tips-good-er-diagram-layout/</li></ul>
+
+The schema has been set out to create the tables in order of dependencies. In order to import the data form the requisite csv files, those tables required because other tables are dependent upon them (in relation to Foreign Keys and other constrints) are created first, with the final three tables being those dependent on the first three.
