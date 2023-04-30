@@ -10,4 +10,5 @@ A number of articles were researched in order to undertake this exercise and und
 https://www.smartdraw.com/entity-relationship-diagram/</li><li>
 https://vertabelo.com/blog/vertabelo-tips-good-er-diagram-layout/</li></ul>
 
-The schema has been set out to create the tables in order of dependencies. In order to import the data form the requisite csv files, those tables required because other tables are dependent upon them (in relation to Foreign Keys and other constrints) are created first, with the final three tables being those dependent on the first three.
+<li>The Schema has been set out to create the tables in order of dependencies. In order to import the data without error, those tables upon which other tables are dependent  are placed first in order.</li><li>
+<b>The Dept_Manager</b> file is arguably not needed. The information it contains could be obtained from the otehr tables using joins. It has been included as it is possible that there is a use case for such a table (and because the outline for the challenge seemed to assume that six files would be included. THe informaiton it contains is the title_id for manager, and the emp_no for employees in that role.
