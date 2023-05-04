@@ -2,7 +2,7 @@
 <b>Module 9 Challenge - SQL</b>
 
 <p>This project creates a database for a fictional company called Pewlett Hackard researching its employees during the 1980s and 1990s. I have designed relational database with tables holding data from six CSV files. An ERD has been created, modelling the relationships between the tables using Crow's Foot notation.
-A schema has been designed for each table with appropriate constraints and datatypes. Finally, a series of queries have been performed esearching these employees.</p>
+A schema has been designed for each table with appropriate constraints and datatypes. Finally, a series of queries have been performed researching the employees.</p>
 
 <p>The ERD has been designed using QuickDBD<ul><li>https://www.quickdatabasediagrams.com/</li></ul></p>
 <p>A number of articles were researched in order to undertake this exercise and understand the concepts of cardinality, types of ERD Data Models, and what would be appropriate primary and foreign keys:
